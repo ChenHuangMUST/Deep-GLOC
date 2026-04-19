@@ -1,7 +1,6 @@
 # Deep-GLOC
-Knowledge-guided graph framework for disentangling cholesterol metabolic processes and deriving the free cholesterol loading score (FCLS) from bulk and single-cell transcriptomic data.
 
-**Deep-GLOC** is a knowledge-guided graph framework for disentangling cholesterol metabolic processes from transcriptomic data and deriving the **free cholesterol loading score (FCLS)** in bulk and single-cell settings.
+**Deep-GLOC** is a knowledge-guided graph framework for resolving four core cholesterol metabolic processes from transcriptomic data and quantifying free cholesterol loading in bulk and single-cell settings.
 
 Cholesterol homeostasis is jointly regulated by multiple tightly connected processes, including **biosynthesis**, **uptake**, **esterification**, and **excretion**. Conventional transcriptomic analyses often collapse these related processes into a single signature or score, which limits biological interpretation.
 Deep-GLOC was developed to address this problem. Starting from curated process-specific seed genes, the framework constructs a liver-relevant knowledge-augmented graph by integrating transcriptomic similarity and protein–protein interaction information, and then expands process-specific signatures through graph-based learning. Based on the resulting signatures, Deep-GLOC further quantifies cholesterol loading states using the **free cholesterol loading score (FCLS)**.
