@@ -1,0 +1,10 @@
+{
+  "node_file": "test_data/node_table_demo.tsv",
+  "edge_file": "test_data/edge_list_demo.tsv",
+  "core_gene_file": "test_data/core_gene_demo.csv",
+  "expression_file": "test_data/expression_demo.tsv",
+  "output_dir": "results",
+  "alpha": 0.85,
+  "iterations": 30,
+  "top_candidates_per_process": 3
+}
