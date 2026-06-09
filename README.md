@@ -43,7 +43,7 @@ Deep-GLOC/
 - Process disentanglement for four core cholesterol-related programs:
   Biosynthesis, Uptake, Esterification, and Excretion.
 - Expansion of process-specific gene signatures from curated seed genes.
-- Calculation of composite indices including Influx, Removal, and FCLS.
+- Calculation of composite indices including FCLS and FCLS_zscore.
 - Support for both bulk transcriptomic and single-cell RNA-seq analyses.
 - Benchmarking against alternative graph-based methods such as DeepWalk and
   random walk with restart (RWR).
